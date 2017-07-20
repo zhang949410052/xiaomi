@@ -1,0 +1,648 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.head img {
+  width: 100%; }
+
+.dh {
+  background: #212121;
+  line-height: 50px; }
+  .dh div {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+    .dh div .u1 {
+      float: left;
+      color: #999999; }
+    .dh div .u1 li {
+      list-style: none;
+      float: left;
+      margin-left: 10px; }
+    .dh div .u1:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    .dh div .u2 {
+      float: right;
+      color: #999999; }
+    .dh div .u2 .gw {
+      background: #424242;
+      text-align: center;
+      width: 100px; }
+    .dh div .u2 .gw:hover {
+      background: white;
+      color: red; }
+    .dh div .u2 li {
+      list-style: none;
+      float: left;
+      margin-left: 10px; }
+      .dh div .u2 li .gw1 {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        display: none;
+        background: white;
+        box-shadow: 0px 5px 20px gainsboro;
+        right: 0; }
+
+.dh:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.midh {
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 50px; }
+  .midh .div1 {
+    float: left;
+    margin-top: 20px; }
+    .midh .div1 .img2 {
+      margin-left: 50px; }
+  .midh ul {
+    margin-top: 20px;
+    float: left; }
+  .midh ul li {
+    list-style: none;
+    float: left;
+    margin-left: 20px; }
+  .midh .ss {
+    float: right;
+    display: flex; }
+  .midh input {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px; }
+  .midh .span {
+    border: 2px solid darkgray;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px; }
+
+.midh:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.lunbo {
+  position: relative;
+  width: 1200px;
+  height: 390px;
+  margin: 0 auto; }
+  .lunbo .lun1 {
+    position: absolute;
+    float: left;
+    width: 100%;
+    background: white; }
+    .lunbo .lun1 ul {
+      width: 250px;
+      background: #333333;
+      position: absolute;
+      z-index: 1; }
+    .lunbo .lun1 .lun1_left li {
+      width: 250px;
+      height: 39px;
+      line-height: 39px;
+      color: white;
+      background: #333333;
+      padding-left: 20px;
+      list-style: none; }
+      .lunbo .lun1 .lun1_left li span {
+        float: right;
+        margin-right: 10px;
+        font-size: 20px; }
+      .lunbo .lun1 .lun1_left li .lun2 {
+        width: 800px;
+        height: 390px;
+        background: white;
+        position: absolute;
+        top: 0;
+        left: 270px;
+        display: none;
+        z-index: 999; }
+    .lunbo .lun1 .lun1_left li:hover {
+      background: orangered; }
+  .lunbo .wrap {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    margin: 0 auto; }
+  .lunbo .wrap .box {
+    width: 100%;
+    height: 390px;
+    position: relative;
+    overflow: hidden; }
+  .lunbo .wrap .box a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; }
+  .lunbo .wrap img {
+    width: 100%; }
+  .lunbo .wrap ul {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+    background: none; }
+  .lunbo .wrap li {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: gray;
+    border-radius: 50%;
+    float: left;
+    cursor: pointer;
+    list-style: none; }
+  .lunbo .wrap .prev {
+    width: 40px;
+    height: 70px;
+    background-color: #c0c0c0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    opacity: 0.5;
+    color: #FFFFFF; }
+  .lunbo .wrap .next {
+    width: 40px;
+    height: 70px;
+    background-color: #c0c0c0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -35px;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    opacity: 0.5;
+    color: #FFFFFF; }
+  .lunbo .wrap .hot {
+    background-color: red; }
+
+.tb {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex; }
+  .tb .tb1 {
+    margin-top: 20px;
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #5F5750; }
+    .tb .tb1 div {
+      width: 80px;
+      text-align: center; }
+  .tb .tb2 {
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 20px; }
+    .tb .tb2 img {
+      width: 100%; }
+    .tb .tb2 img:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+
+.danpin {
+  width: 1200px;
+  margin: 0 auto; }
+  .danpin .d .d1 {
+    float: left;
+    margin-top: 30px; }
+  .danpin .d .d2 {
+    float: right;
+    margin-top: 30px; }
+  .danpin .d:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .danpin .p {
+    margin-top: 30px; }
+    .danpin .p .p1 {
+      width: 224px;
+      height: 380px;
+      line-height: 35px;
+      float: left;
+      background: #FAFAFA;
+      margin-left: 20px;
+      text-align: center; }
+      .danpin .p .p1 img {
+        width: 100%;
+        margin-top: 30px; }
+
+.danpin:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.jd {
+  width: 1200px;
+  background: #F5F5F5;
+  margin: 0 auto;
+  margin-top: 20px; }
+  .jd .d {
+    background: #F5F5F5; }
+    .jd .d .d1 {
+      float: left;
+      margin-top: 30px; }
+    .jd .d ul li {
+      float: right;
+      margin-left: 10px;
+      margin-top: 30px;
+      list-style: none; }
+  .jd .d:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .jd .p {
+    width: 1200px; }
+    .jd .p .p1 {
+      width: 224px;
+      float: left; }
+      .jd .p .p1 img {
+        margin-top: 10px;
+        width: 100%; }
+      .jd .p .p1 img:hover {
+        margin-top: 8px;
+        box-shadow: 0px 5px 20px gainsboro; }
+    .jd .p .p2 {
+      float: left;
+      width: 976px;
+      background: #F5F5F5;
+      height: 598px; }
+      .jd .p .p2 .p3 {
+        width: 976px; }
+        .jd .p .p2 .p3 div {
+          background: white;
+          margin-top: 10px;
+          line-height: 43px;
+          float: left;
+          margin-left: 20px;
+          width: 220px;
+          height: 288px;
+          text-align: center; }
+          .jd .p .p2 .p3 div img {
+            width: 63%; }
+          .jd .p .p2 .p3 div ul {
+            list-style: none;
+            background: white;
+            height: 130px;
+            margin-top: 20px;
+            text-align: left; }
+            .jd .p .p2 .p3 div ul li {
+              width: 100px;
+              float: left;
+              margin-top: 25px; }
+              .jd .p .p2 .p3 div ul li img {
+                margin-left: 30px; }
+          .jd .p .p2 .p3 div ul:after {
+            display: block;
+            clear: both;
+            content: ''; }
+          .jd .p .p2 .p3 div ul:hover {
+            margin-top: 18px; }
+      .jd .p .p2 .p3:after {
+        display: block;
+        clear: both;
+        content: ''; }
+    .jd .p .p2:after {
+      display: block;
+      clear: both;
+      content: ''; }
+  .jd .p:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+.jd:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.bj {
+  background: #F5F5F5; }
+
+.zn {
+  width: 1200px;
+  margin: 0 auto;
+  background: #F5F5F5; }
+  .zn .d {
+    background: #F5F5F5; }
+    .zn .d .d1 {
+      float: left;
+      margin-top: 30px; }
+    .zn .d ul li {
+      float: right;
+      margin-left: 10px;
+      margin-top: 30px;
+      list-style: none; }
+  .zn .d:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .zn div {
+    width: 1200px; }
+    .zn div .z1 {
+      width: 224px;
+      float: left; }
+      .zn div .z1 img {
+        width: 100%; }
+    .zn div .z1:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .zn div .z2:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .zn div .z3:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .zn div .z4:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .zn div .z2 {
+      background: white;
+      width: 224px;
+      text-align: center;
+      float: left;
+      margin-left: 20px; }
+    .zn div .z3 {
+      background: white;
+      width: 224px;
+      text-align: center;
+      float: right;
+      margin-top: 20px;
+      margin-left: 20px; }
+    .zn div .z4 {
+      width: 224px;
+      float: left;
+      margin-top: 10px; }
+      .zn div .z4 img {
+        width: 100%; }
+  .zn div:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+.dp {
+  width: 1200px;
+  margin: 0 auto;
+  background: #F5F5F5; }
+
+.dp .d {
+  background: #F5F5F5; }
+  .dp .d .d1 {
+    float: left;
+    margin-top: 30px; }
+  .dp .d ul li {
+    float: right;
+    margin-left: 10px;
+    margin-top: 30px;
+    list-style: none; }
+.dp .d:after {
+  display: block;
+  clear: both;
+  content: ''; }
+.dp ul {
+  width: 1200px;
+  margin-top: 20px;
+  list-style: none; }
+  .dp ul .l1 {
+    width: 224px;
+    float: left; }
+    .dp ul .l1 img {
+      width: 100%; }
+  .dp ul .l1:hover {
+    margin-top: -2px;
+    box-shadow: 0px 5px 20px gainsboro; }
+  .dp ul .l2:hover {
+    margin-top: -2px;
+    box-shadow: 0px 5px 20px gainsboro; }
+  .dp ul .l2 {
+    width: 224px;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    line-height: 43px;
+    background: white; }
+  .dp ul .l3 {
+    margin-top: 20px;
+    width: 224px;
+    float: right; }
+    .dp ul .l3 .l31 {
+      width: 224px; }
+    .dp ul .l3 .top {
+      width: 224px;
+      height: 130px;
+      line-height: 50px;
+      background: white; }
+      .dp ul .l3 .top div {
+        float: left;
+        margin-left: 20px;
+        margin-top: 30px; }
+      .dp ul .l3 .top img {
+        width: 100px;
+        float: right; }
+    .dp ul .l3 .top:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .dp ul .l3 .top:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    .dp ul .l3 .left {
+      width: 224px;
+      height: 130px;
+      line-height: 50px;
+      background: white;
+      margin-top: 24px; }
+      .dp ul .l3 .left div {
+        margin-left: 20px;
+        margin-top: 30px; }
+      .dp ul .l3 .left img {
+        width: 80px;
+        float: right;
+        margin-top: -80px;
+        margin-right: 10px; }
+    .dp ul .l3 .left:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+    .dp ul .l3 .left:after {
+      display: block;
+      clear: both;
+      content: ''; }
+  .dp ul .l31:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .dp ul .l4 {
+    width: 224px;
+    float: right;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 43px;
+    background: white; }
+  .dp ul .l4:hover {
+    margin-top: 18px;
+    box-shadow: 0px 5px 20px gainsboro; }
+  .dp ul .l5 {
+    width: 224px;
+    float: right;
+    margin-top: 17px;
+    margin-right: 20px; }
+    .dp ul .l5 img {
+      width: 100%; }
+  .dp ul .l5:hover {
+    margin-top: -2px;
+    box-shadow: 0px 5px 20px gainsboro; }
+.dp ul:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.rp {
+  width: 1200px;
+  margin: 0 auto;
+  background: #F5F5F5; }
+  .rp .d {
+    background: #F5F5F5; }
+    .rp .d .d1 {
+      float: left;
+      margin-top: 30px; }
+  .rp .d:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .rp ul {
+    margin-top: 20px;
+    list-style: none; }
+    .rp ul li {
+      background: white;
+      margin-left: 20px;
+      text-align: left;
+      width: 285px;
+      line-height: 40px;
+      float: left; }
+      .rp ul li p {
+        margin-left: 20px; }
+      .rp ul li h3 {
+        margin-left: 20px; }
+      .rp ul li img {
+        width: 100%; }
+    .rp ul li:hover {
+      margin-top: -2px;
+      box-shadow: 0px 5px 20px gainsboro; }
+  .rp ul:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+.bottom {
+  background: white;
+  height: 300px;
+  margin-top: 50px; }
+  .bottom .ul1 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+    line-height: 50px;
+    list-style: none;
+    border-bottom: 1px solid gainsboro; }
+    .bottom .ul1 li {
+      text-align: center;
+      height: 30px;
+      width: 230px;
+      line-height: 30px;
+      margin-top: 20px;
+      border-right: 1px solid gainsboro;
+      float: left; }
+  .bottom .ul1:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .bottom .bot1 {
+    width: 1200px;
+    margin: 0 auto; }
+    .bottom .bot1 .left {
+      margin-top: 50px;
+      float: left;
+      border-right: 1px solid gainsboro;
+      width: 960px; }
+      .bottom .bot1 .left ul {
+        width: 960px;
+        list-style: none; }
+        .bottom .bot1 .left ul .l1 {
+          margin: 0; }
+        .bottom .bot1 .left ul li {
+          margin-top: 20px;
+          width: 160px;
+          float: left; }
+      .bottom .bot1 .left ul:after {
+        display: block;
+        clear: both;
+        content: ''; }
+    .bottom .bot1 .right {
+      margin-left: 20px;
+      float: left;
+      text-align: center;
+      margin-top: 50px;
+      text-align: center; }
+      .bottom .bot1 .right div {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border: 2px solid orange;
+        color: orange; }
+  .bottom .bot1:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+.dibu {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px; }
+  .dibu div {
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left; }
+    .dibu div p {
+      font-size: 10px;
+      margin-top: 4px;
+      color: gray; }
+
+.fd:hover {
+  margin-top: 8px;
+  box-shadow: 0px 5px 20px gainsboro; }
+
+/*# sourceMappingURL=mi.css.map */
